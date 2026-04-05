@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us — Book Haven Bookstore</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="outerContainer">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="logoSec">
+          <img
+            class="appLogo"
+            src="/src/assets/Logo1_Palette2.png"
+            alt="Book Haven Bookstore Logo"
+          />
+          <div class="storeName">Book Haven Bookstore</div>
+        </div>
+        <div id="selectionSec">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+
+      <!-- HERO BANNER -->
+      <div class="aboutHero">
+        <div class="aboutHeroInner">
+          <h1>Book Haven Bookstore</h1>
+          <p>
+            A local treasure for readers of all kinds — from avid bookworms to
+            curious beginners. Come in, browse, and find your next great read.
+          </p>
+        </div>
+      </div>
+
+      <!-- MAIN CONTENT: INFO + FEEDBACK FORM -->
+      <div class="aboutMain">
+        <!-- LEFT: About / Business Hours / Address -->
+        <div class="aboutInfo">
+          <div class="aboutInfoBlock aboutDesc">
+            <h2>About Us</h2>
+            <p>
+              Book Haven Bookstore is a local treasure for book enthusiasts,
+              offering a diverse selection of books, magazines, journals, and
+              office supplies. With a deep-rooted commitment to fostering
+              literary exploration and a love for reading, we are building an
+              online presence that mirrors our dedication to the world of words.
+            </p>
+            <p>
+              Serving avid readers, students, and individuals in search of
+              high-quality reading materials and office essentials, our goal is
+              to amplify our visibility, cultivate a vibrant literary community,
+              and simplify the process of book inquiries and purchases. Our
+              website celebrates the written word and encourages literary
+              discovery and intellectual growth.
+            </p>
+          </div>
+          <div class="aboutInfoRow">
+            <div class="aboutInfoBlock">
+              <h3>Business Hours</h3>
+              <ul class="aboutHoursList">
+                <li>
+                  <span class="aboutHoursDay">Monday – Friday</span
+                  ><span class="aboutHoursTime">9:00 a.m. – 8:00 p.m.</span>
+                </li>
+                <li>
+                  <span class="aboutHoursDay">Saturday</span
+                  ><span class="aboutHoursTime">10:00 a.m. – 6:00 p.m.</span>
+                </li>
+                <li>
+                  <span class="aboutHoursDay">Sunday</span
+                  ><span class="aboutHoursTime">11:00 a.m. – 5:00 p.m.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="aboutInfoBlock">
+              <h3>Address</h3>
+              <p class="aboutAddress">
+                123 Book Haven Lane<br />Suite 100<br />Springfield, USA 00000
+              </p>
+              <p class="aboutAddress">
+                📞 (555) 123-4567<br />✉️ hello@bookhaven.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Feedback Form -->
+        <div class="aboutFormBlock">
+          <h2>Feedback & Custom Orders</h2>
+          <p class="aboutFormSubtext">
+            Use this form to share feedback or to request a custom order. We'll
+            get back to you as soon as possible.
+          </p>
+          <form class="aboutForm" action="#" method="post">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div class="aboutFormActions">
+              <button type="submit" id="submitFeedBack">Submit</button>
+              <button type="reset" id="clearForm">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- IMAGE ROW -->
+      <div class="aboutImageRow">
+        <div class="aboutImageBlock">
+          <img
+            src="/src/assets/about-image1.svg"
+            alt="Our Story"
+            class="aboutImg"
+          />
+          <p class="aboutImgCaption">Our Story</p>
+        </div>
+        <div class="aboutImageBlock">
+          <img
+            src="/src/assets/about-image2.svg"
+            alt="Our Team"
+            class="aboutImg"
+          />
+          <p class="aboutImgCaption">Our Team</p>
+        </div>
+        <div class="aboutImageBlock">
+          <img
+            src="/src/assets/about-image3.svg"
+            alt="Our Space"
+            class="aboutImg"
+          />
+          <p class="aboutImgCaption">Our Space</p>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footBar">
+        <div class="leftFoot">
+          <div class="newsletterSection">
+            <h2>Newsletter</h2>
+            <form class="newsletterForm" action="#" method="post">
+              <label for="newsEmail">Email</label>
+              <input type="email" id="newsEmail" name="email" required />
+              <button type="submit" id="newsLetterSubmit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="socialSection">
+            <h2>Social</h2>
+            <div class="socialIcons">
+              <a href="#" aria-label="Facebook">
+                <img
+                  src="/src/assets/facebook.svg"
+                  alt="Facebook"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Instagram">
+                <img
+                  src="/src/assets/instagram.svg"
+                  alt="Instagram"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Twitter / X">
+                <img
+                  src="/src/assets/twitter.svg"
+                  alt="Twitter"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="YouTube">
+                <img
+                  src="/src/assets/youtube.svg"
+                  alt="YouTube"
+                  class="socialIcon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="rightFoot">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Runs javscript logic -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

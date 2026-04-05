@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Haven Bookstore</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="outerContainer">
+      <div class="navbar">
+        <div class="logoSec">
+          <img
+            class="appLogo"
+            src="/src/assets/Logo1_Palette2.png"
+            alt="Book Haven Bookstore Logo"
+          />
+          <div class="storeName">Book Haven Bookstore</div>
+        </div>
+
+        <div id="selectionSec">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+
+      <div class="heroSection">
+        <div class="heroTextBlock">
+          <h2>Your Next Favorite Book is Waiting</h2>
+          <p>
+            Book Haven Bookstore is your local destination for books, magazines,
+            journals, and office supplies. Whether you're hunting for a new
+            release, a hidden gem, or something for the whole family — we've got
+            a shelf for you.
+          </p>
+          <button onclick="window.location='gallery.html'">
+            Browse Collection
+          </button>
+        </div>
+
+        <div class="heroImageBlock">
+          <img
+            src="/src/assets/hero-image.svg"
+            alt="Open a Book, Open a World"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 10px;
+            "
+          />
+        </div>
+      </div>
+
+      <div class="benefitsSection">
+        <div class="benefitsWrapper">
+          <div class="benefitCard">
+            <img
+              src="/src/assets/local-bookstore.svg"
+              alt="Local Bookstore"
+              class="benefitImg"
+            />
+            <h3>Local Bookstore</h3>
+            <p>
+              Proudly rooted in the community. Stop in and browse our
+              hand-selected shelves any day of the week.
+            </p>
+          </div>
+          <div class="benefitCard">
+            <img
+              src="/src/assets/curated-picks.svg"
+              alt="Curated Picks"
+              class="benefitImg"
+            />
+            <h3>Curated Picks</h3>
+            <p>
+              Our staff reads so you don't have to guess. Every pick is chosen
+              with care for every kind of reader.
+            </p>
+          </div>
+          <div class="benefitCard">
+            <img
+              src="/src/assets/books-supplies.svg"
+              alt="Books + Supplies"
+              class="benefitImg"
+            />
+            <h3>Books + Supplies</h3>
+            <p>
+              From novels to notebooks, we carry everything you need to read,
+              write, and stay organized.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="archiveTitle">
+        <h2>Curated Archives</h2>
+      </div>
+
+      <div class="archiveSection">
+        <div class="archiveGrid">
+          <div class="gridImage1">
+            <img
+              src="/src/assets/best-sellers.svg"
+              alt="Best Sellers"
+              class="archiveImg"
+            /><span class="archiveLabel">Best Sellers</span>
+          </div>
+          <div class="gridImage2">
+            <img
+              src="/src/assets/new-releases.svg"
+              alt="New Releases"
+              class="archiveImg"
+            /><span class="archiveLabel">New Releases</span>
+          </div>
+          <div class="gridImage3">
+            <img
+              src="/src/assets/magazines.svg"
+              alt="Magazines"
+              class="archiveImg"
+            /><span class="archiveLabel">Magazines</span>
+          </div>
+          <div class="gridImage4">
+            <img
+              src="/src/assets/staff-picks.svg"
+              alt="Staff Picks"
+              class="archiveImg"
+            /><span class="archiveLabel">Staff Picks</span>
+          </div>
+        </div>
+
+        <div class="archiveFlex">
+          <div class="archiveFlexCard">
+            <img
+              src="/src/assets/bookmark.svg"
+              alt="Bookmark"
+              class="benefitImg"
+            />
+            <h3>Bookmark</h3>
+            <p>
+              Save your spot and never lose your place again with our exclusive
+              Book Haven bookmarks.
+            </p>
+          </div>
+          <div class="archiveFlexCard">
+            <img
+              src="/src/assets/curation.svg"
+              alt="Curation"
+              class="benefitImg"
+            />
+            <h3>Curation</h3>
+            <p>
+              Let us do the browsing. Our curation service matches you with
+              books tailored to your taste.
+            </p>
+          </div>
+          <div class="archiveFlexCard">
+            <img
+              src="/src/assets/membership.svg"
+              alt="Membership"
+              class="benefitImg"
+            />
+            <h3>Membership</h3>
+            <p>
+              Join the Book Haven membership program and enjoy exclusive
+              discounts, early access, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="categoriesTitle">
+        <h2>Categories</h2>
+      </div>
+      <div class="categoriesSection">
+        <button>Fiction</button>
+        <button>Nonfiction</button>
+        <button>Magazines</button>
+        <button>Journals</button>
+        <button>Office Supplies</button>
+        <button>Staff Recommendations</button>
+      </div>
+
+      <div class="footBar">
+        <div class="leftFoot">
+          <div class="newsletterSection">
+            <h2>Newsletter</h2>
+            <form class="newsletterForm" action="#" method="post">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <button type="submit" id="newsLetterSubmit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="socialSection">
+            <h2>Social</h2>
+            <div class="socialIcons">
+              <a href="#" aria-label="Facebook">
+                <img
+                  src="/src/assets/facebook.svg"
+                  alt="Facebook"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Instagram">
+                <img
+                  src="/src/assets/instagram.svg"
+                  alt="Instagram"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Twitter / X">
+                <img
+                  src="/src/assets/twitter.svg"
+                  alt="Twitter"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="YouTube">
+                <img
+                  src="/src/assets/youtube.svg"
+                  alt="YouTube"
+                  class="socialIcon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="rightFoot">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Runs javscript logic -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="380" viewBox="0 0 400 380">
+  <rect width="400" height="380" fill="#2E2E4E" rx="10"/>
+  <rect x="16" y="16" width="368" height="348" fill="none" stroke="#F0EDE8" stroke-width="1.5" stroke-opacity="0.25" rx="6"/>
+  <text x="200" y="190" text-anchor="middle" dominant-baseline="central" fill="#F0EDE8" font-family="Georgia, serif" font-size="22" font-weight="bold">Best Sellers</text>
+</svg>

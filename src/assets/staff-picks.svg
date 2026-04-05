@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="170" viewBox="0 0 280 170">
+  <rect width="280" height="170" fill="#3E5641" rx="10"/>
+  <rect x="16" y="16" width="248" height="138" fill="none" stroke="#F0EDE8" stroke-width="1.5" stroke-opacity="0.25" rx="6"/>
+  <text x="140" y="85" text-anchor="middle" dominant-baseline="central" fill="#F0EDE8" font-family="Georgia, serif" font-size="22" font-weight="bold">Staff Picks</text>
+</svg>
