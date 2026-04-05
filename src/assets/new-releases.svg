@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#5C2E5C" rx="10"/>
+  <rect x="16" y="16" width="268" height="148" fill="none" stroke="#F0EDE8" stroke-width="1.5" stroke-opacity="0.25" rx="6"/>
+  <text x="150" y="90" text-anchor="middle" dominant-baseline="central" fill="#F0EDE8" font-family="Georgia, serif" font-size="22" font-weight="bold">New Releases</text>
+</svg>

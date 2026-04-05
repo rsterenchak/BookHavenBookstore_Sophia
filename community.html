@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community — Book Haven Bookstore</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="outerContainer">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="logoSec">
+          <img
+            class="appLogo"
+            src="/src/assets/Logo1_Palette2.png"
+            alt="Book Haven Bookstore Logo"
+          />
+          <div class="storeName">Book Haven Bookstore</div>
+        </div>
+        <div id="selectionSec">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+
+      <!-- HERO -->
+      <div class="communityHero">
+        <div class="communityHeroInner">
+          <p class="communityHeroEyebrow">Join the Community</p>
+          <h1>Where Stories<br />Converge.</h1>
+          <p class="communityHeroBody">
+            At Book Haven, we believe reading is better together. Whether you're
+            a lifelong bookworm or just getting started, our community events
+            are a place to connect, discover new reads, and share your love of
+            the written word with people who get it.
+          </p>
+          <p class="communityHeroDate">Scroll down to see what's coming up.</p>
+        </div>
+      </div>
+
+      <!-- UPCOMING GATHERINGS -->
+      <div class="communityEventsSection">
+        <div class="communityEventsHeader">
+          <h2>Upcoming Gatherings</h2>
+          <p>Come as you are. Leave with a new favorite book.</p>
+        </div>
+        <div class="communityEventsGrid">
+          <div class="communityEventCard">
+            <div class="eventCardContent">
+              <p class="eventCardDate">Saturday, April 12</p>
+              <h3>Monthly Book Club</h3>
+              <p>
+                Join us for our monthly book club meetup. This month we're
+                discussing <em>Glory Riders</em>. All are welcome — no RSVP
+                needed.
+              </p>
+            </div>
+          </div>
+          <div class="communityEventCard">
+            <div class="eventCardContent">
+              <p class="eventCardDate">Friday, April 18</p>
+              <h3>Author Meet & Greet</h3>
+              <p>
+                Meet a local author and get your copy signed. Light refreshments
+                will be provided. Space is limited so arrive early.
+              </p>
+            </div>
+          </div>
+          <div class="communityEventCard">
+            <div class="eventCardContent">
+              <p class="eventCardDate">Sunday, April 27</p>
+              <h3>Kids' Reading Hour</h3>
+              <p>
+                A fun and interactive reading session for children ages 4–10.
+                Bring the little ones in for stories, activities, and free
+                bookmarks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEWSLETTER CTA -->
+      <div class="communityCTA">
+        <div class="communityCTAInner">
+          <h2>Keep the story going.</h2>
+          <p>
+            Stay in the loop on new arrivals, upcoming events, and exclusive
+            member offers. Sign up for our newsletter and become part of the
+            Book Haven community.
+          </p>
+          <form class="communityCTAForm" action="#" method="post">
+            <input type="email" name="email" placeholder="" required />
+            <button type="submit" id="newsLetterSubmit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footBar">
+        <div class="leftFoot">
+          <div class="newsletterSection">
+            <h2>Newsletter</h2>
+            <form class="newsletterForm" action="#" method="post">
+              <label for="footEmail">Email</label>
+              <input type="email" id="footEmail" name="email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="socialSection">
+            <h2>Social</h2>
+            <div class="socialIcons">
+              <a href="#" aria-label="Facebook">
+                <img
+                  src="/src/assets/facebook.svg"
+                  alt="Facebook"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Instagram">
+                <img
+                  src="/src/assets/instagram.svg"
+                  alt="Instagram"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="Twitter / X">
+                <img
+                  src="/src/assets/twitter.svg"
+                  alt="Twitter"
+                  class="socialIcon"
+                />
+              </a>
+              <a href="#" aria-label="YouTube">
+                <img
+                  src="/src/assets/youtube.svg"
+                  alt="YouTube"
+                  class="socialIcon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="rightFoot">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About Us</a>
+          <a href="community.html">Community</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Runs javscript logic -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
