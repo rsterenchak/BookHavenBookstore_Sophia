@@ -42,7 +42,7 @@ jobs:
           node-version: '20'
 
       - name: Generate manifest (repo root, deterministic)
-        run: node scripts/{{MANIFEST_VARIANT}}
+        run: node scripts/gen-src-manifest.cjs
         env:
           MANIFEST_OUT_DIR: '.'
           MANIFEST_DETERMINISTIC: 'true'
