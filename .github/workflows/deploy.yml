@@ -79,7 +79,7 @@ jobs:
         # file picker. LEAVE THIS STEP IN. Adjust the script path only:
         # .js for CommonJS projects, .cjs for ESM projects (when
         # package.json has "type": "module").
-        run: node scripts/gen-src-manifest.js
+        run: node scripts/gen-src-manifest.cjs
         working-directory: .
         env:
           GITHUB_SHA: ${{ github.sha }}
